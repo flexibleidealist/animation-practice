@@ -1,0 +1,33 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 10vh;
+  width: 15vw;
+  border: 1px solid blue;
+  background-color: green;
+  position: relative;
+  top: 75px;
+  left: 75px;
+  margin: 50px;
+}
+
+.grow {
+  transform: scale(2);
+  transition: 2000ms ease-in-out;
+}
+
+.circle {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border: 1px solid rebeccapurple;
+  border-radius: 100%;
+  background-color: red;
+  top: 150px;
+  margin: 25px;
+}
